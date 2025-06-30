@@ -9,8 +9,8 @@ const chalk = require('chalk')
 require('dotenv').config()
 
 //contact details - sensitive info moved to .env
-global.SESSION_ID = process.env.SESSION_ID || "" //fallback to default if not in .env
-global.ownernomer = process.env.OWNER_NUMBER || "255614195217"
+global.SESSION_ID = process.env.SESSION_ID || "HansTz&jlYmDLyY#4B-0_aNNG0mBxwT-pi5P--jzAjGA0BKHQ5rvpuV5yS8" //fallback to default if not in .env
+global.ownernomer = process.env.OWNER_NUMBER || "923404572130"
 
 global.ownername = process.env.OWNER_NAME || "HansTech"
 
@@ -43,13 +43,13 @@ global.prefa = ['','!','.','#','/']
 //bot settings
 global.autolikestatus = true //For auto react Status Random
 global.autoRecording = false //auto recording
-global.autoTyping = false //auto typing
+global.autoTyping = true //auto typing
 global.autorecordtype = true //auto typing + recording
-global.autoread = false //auto read messages
-global.autobio = true //auto update bio
+global.autoread = true //auto read messages
+global.autobio = false //auto update bio
 global.anti91 = false //auto block +91 
 global.autoswview = true //auto view status/story
-global.autoreact = false // This is For Auto React 
+global.autoreact = true // This is For Auto React 
 global.welcome = false // For Welcome massage groups
 
 
